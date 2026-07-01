@@ -212,7 +212,7 @@
 
       const checkBtn = document.createElement("button");
       checkBtn.className = "check-btn" + (doneToday ? " done" : "");
-      checkBtn.textContent = doneToday ? "check" : "";
+      checkBtn.textContent = doneToday ? "✓" : "";
       checkBtn.onclick = () => {
         const t = todayStr();
         const i = habit.dates.indexOf(t);
